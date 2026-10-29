@@ -1,0 +1,36 @@
+# Created by haodongsheng
+# Build products and local dependencies
+build/
+DerivedData/
+.build/
+*.app
+*.dSYM/
+*.ipa
+*.xcarchive
+
+# Local media, models, and generated subtitles
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.wav
+*.bin
+*.srt
+*.vtt
+
+# Local configuration and sensitive files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.mobileprovision
+
+# Editor and operating system files
+.DS_Store
+*.swp
+*.log
+*.tmp
